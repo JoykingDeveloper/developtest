@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>发牌作弊工具</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div style="width:100%;text-align: center;margin-top:2%">
+            <div style="color:#DD5044;font-size: 20px">仅在牌局开始前设置玩家手牌有效；最多设置13张麻将；选牌好后，必须要勾选对应的复选框</div>
+            <br/>
+            <form action="../class/cheat/CheatService.php" method="post">
+                <div>
+                    <span>玩家ID：</span>
+                    <input type="text" name="user_id" id="user_id" value="" />
+                </div>
+                <br/>
+                <div>
+                    <span>是否开启作弊：</span>
+                    <label><input type="checkbox" name="cheat" value="1" checked />开启</label>
+                </div>
+                <br/>
+                <div>
+                    <style>
+                        .pai{border:1px solid red;margin:1px 0}
+                        .pai .one{border:1px solid #A4AA47;padding:5px 8px;margin:5px 2px;display: inline-block} 
+                    </style>
+                    <span>选择作弊的牌：</span>
+                    <div class="pai">
+                        <div class="one">
+                            <label><input type="checkbox" name="card_1_to[]" value="1" />一筒</label>
+                            <select name="card_1_to[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_2_to[]" value="2" />二筒</label>
+                            <select name="card_2_to[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_3_to[]" value="3" />三筒</label>
+                            <select name="card_3_to[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_4_to[]" value="4" />四筒</label>
+                            <select name="card_4_to[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_5_to[]" value="5" />五筒</label>
+                            <select name="card_5_to[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_6_to[]" value="6" />六筒</label>
+                            <select name="card_6_to[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_7_to[]" value="7" />七筒</label>
+                            <select name="card_7_to[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_8_to[]" value="8" />八筒</label>
+                            <select name="card_8_to[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_9_to[]" value="9" />九筒</label>
+                            <select name="card_9_to[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_1_ti[]" value="10" />一条</label>
+                            <select name="card_1_ti[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_2_ti[]" value="11" />二条</label>
+                            <select name="card_2_ti[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_3_ti[]" value="12" />三条</label>
+                            <select name="card_3_ti[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_4_ti[]" value="13" />四条</label>
+                            <select name="card_4_ti[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_5_ti[]" value="14" />五条</label>
+                            <select name="card_5_ti[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_6_ti[]" value="15" />六条</label>
+                            <select name="card_6_ti[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_7_ti[]" value="16" />七条</label>
+                            <select name="card_7_ti[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_8_ti[]" value="17" />八条</label>
+                            <select name="card_8_ti[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_9_ti[]" value="18" />九条</label>
+                            <select name="card_9_ti[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_1_w[]" value="19" />一万</label>
+                            <select name="card_1_w[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_2_w[]" value="20" />二万</label>
+                            <select name="card_2_w[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_3_w[]" value="21" />三万</label>
+                            <select name="card_3_w[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_4_w[]" value="22" />四万</label>
+                            <select name="card_4_w[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_5_w[]" value="23" />五万</label>
+                            <select name="card_5_w[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_6_w[]" value="24" />六万</label>
+                            <select name="card_6_w[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_7_w[]" value="25" />七万</label>
+                            <select name="card_7_w[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_8_w[]" value="26" />八万</label>
+                            <select name="card_8_w[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_9_w[]" value="27" />九万</label>
+                            <select name="card_9_w[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_28_f[]" value="28" />中</label>
+                            <select name="card_28_f[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_29_f[]" value="29" />发</label>
+                            <select name="card_29_f[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_30_f[]" value="30" />白</label>
+                            <select name="card_30_f[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_31_f[]" value="31" />东</label>
+                            <select name="card_31_f[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_32_f[]" value="32" />南</label>
+                            <select name="card_32_f[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_33_f[]" value="33" />西</label>
+                            <select name="card_33_f[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                        <div class="one">
+                            <label><input type="checkbox" name="card_34_f[]" value="34" />北</label>
+                            <select name="card_34_f[]">
+                                <option value="1">1张</option>
+                                <option value="2">2张</option>
+                                <option value="3">3张</option>
+                                <option value="4">4张</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div>
+                    <input type="hidden" name="type" value="fapai" />
+                    <input type="hidden" name="_href" value="cheat" />
+                    <button type="submit" class="sub-btn">确定</button>
+                </div>
+            </form>
+        </div>
+        
+        <script src="./js/jquery.js"></script>
+        <script>
+            $(function(){
+                //玩家ID不能为空
+                $('.sub-btn').click(function(){
+                    if($('#user_id').val() == ''){
+                        alert('玩家ID不能为空！')
+                        return false;
+                    }
+                    if($('.pai input:checkbox:checked').length == 0){
+                        alert('请勾选需要作弊的麻将！')
+                        return false;
+                    }
+                })
+            })
+        </script>
+    </body>
+</html>

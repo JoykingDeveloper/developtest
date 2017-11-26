@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>出牌作弊工具</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div style="width:100%;text-align: center;margin-top:2%">
+            <div style="color:#DD5044;font-size: 20px">仅在玩家出牌前设置有效</div>
+            <br/>
+            <form action="../class/cheat/CheatService.php" method="post">
+                <div>
+                    <span>玩家ID：</span>
+                    <input type="text" name="user_id" id="user_id" value="" />
+                </div>
+                <br/>
+                <div>
+                    <span>是否开启作弊：</span>
+                    <label><input type="checkbox" name="cheat" value="1" checked />开启</label>
+                </div>
+                <br/>
+                <div>
+                    <style>
+                        .pai{border:1px solid red;margin:1px 0}
+                        .pai label{cursor: pointer}
+                        .pai .one{border:1px solid #A4AA47;padding:5px 8px;margin:5px 2px;display: inline-block} 
+                    </style>
+                    <span>选择作弊的牌：</span>
+                    <div class="pai">
+                        <div class="one">
+                            <label><input type="hidden" value="1" /><span>一筒</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="2" /><span>二筒</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="3" /><span>三筒</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="4" /><span>四筒</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="5" /><span>五筒</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="6" /><span>六筒</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="7" /><span>七筒</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="8" /><span>八筒</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="9" /><span>九筒</span></label>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div class="one">
+                            <label><input type="hidden" value="10" /><span>一条</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="11" /><span>二条</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="12" /><span>三条</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="13" /><span>四条</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="14" /><span>五条</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="15" /><span>六条</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="16" /><span>七条</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="17" /><span>八条</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="18" /><span>九条</span></label>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div class="one">
+                            <label><input type="hidden" value="19" /><span>一万</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="20" /><span>二万</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="21" /><span>三万</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="22" /><span>四万</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="23" /><span>五万</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="24" /><span>六万</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="25" /><span>七万</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="26" /><span>八万</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="27" /><span>九万</span></label>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div class="one">
+                            <label><input type="hidden" value="28" /><span>中</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="29" /><span>发</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="30" /><span>白</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="31" /><span>东</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="32" /><span>南</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="33" /><span>西</span></label>
+                        </div>
+                        <div class="one">
+                            <label><input type="hidden" value="34" /><span>北</span></label>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <style>
+                    .xuan{border:1px solid green;width:50%;margin:0 auto;text-align: left;padding:5px 10px}
+                    .xuan .deng{border:1px solid #A4AA47;padding:5px 8px;margin:5px 2px;display: inline-block} 
+                    .xuan .deng:hover{border:1px solid #DD5044;color:#DD5044;} 
+                    .xuan .deng label{position: relative} 
+                    .xuan .deng label img{position: absolute;top:-10px;right: -10px;width: 50%;cursor: pointer;z-index: 99} 
+                </style>
+                <div class="xuan">
+                    <span>已选麻将：</span>
+<!--                    <span class="deng">
+                        <input type="hidden" name="xuan_mj[]" value="1" />
+                        <label>九万<img src="./images/del.png" class="del_xuan" _val='555' /></label>
+                    </span>-->
+                </div>
+                <br/>
+                <div>
+                    <input type="hidden" name="type" value="mopai" />
+                    <input type="hidden" name="_href" value="mopai" />
+                    <button type="submit" class="sub-btn">确定</button>
+                </div>
+            </form>
+        </div>
+        
+        <script src="./js/jquery.js"></script>
+        <script>
+            $(function(){
+                //玩家ID不能为空
+                $('.sub-btn').click(function(){
+                    if($('#user_id').val() == ''){
+                        alert('玩家ID不能为空！')
+                        return false;
+                    }
+                    if($('.xuan input[name="xuan_mj[]"]').length == 0){
+                        alert('请选择作弊的麻将！')
+                        return false;
+                    }
+                })
+                //按顺序选择麻将
+                $('.pai label').click(function(){
+                    var val = $(this).find('input').val();
+                    if($(".xuan input[value='"+val+"']").size() >= 4){
+                        alert('同一张麻将最多四张！');
+                        return false;
+                    }
+                    var str = $(this).find('span').html();
+                    var html = '';
+                    html += '<span class="del_mj_'+val+' deng">';
+                    html += '<input type="hidden" name="xuan_mj[]" value="'+val+'" />';
+                    html += '<label>'+str+'<img src="./images/del.png" class="del_xuan" _val='+val+' /></label>';
+                    html += '</span>';
+                    $('.xuan').append(html)   
+                })
+                //删除已经选择的麻将
+                $('.xuan').on('click', '.del_xuan',function(){
+                    var img_val = $(this).attr('_val');
+                    $(this).parents('.del_mj_'+img_val).remove()
+                })
+            })
+        </script>
+    </body>
+</html>

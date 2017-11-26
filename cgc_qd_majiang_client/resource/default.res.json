@@ -1,0 +1,93 @@
+{
+	"groups": [
+		{
+			"keys": "mj_swf,mj,mj_daojishi,jushu,eff,eff_swf,cgc_majiang_lib.min_js_qdmj705,img_MJ_DK4,s9_MJ_DK11,mj_main_swf,mj_main,img_NJMJ_ZM1,s9_NJMJ_DK4,img_NJMJ_ZM12,s9_NJMJ_DK42,endscore",
+			"name": "game_res_705"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/mj/mj_swf.json",
+			"type": "swf",
+			"name": "mj_swf"
+		},
+		{
+			"url": "assets/mj/mj.json",
+			"type": "sheet",
+			"name": "mj",
+			"subkeys": "img_MJ_PXD1,img_MJ_PXD1_1,img_MJ_PXD2,img_MJ_PXD3,img_MJ_PXD3_1,img_MJ_PXD4,img_MJ_PXD5,img_MJ_PXD5_1,img_MJ_PXD6,img_MJ_PXD7,img_MJ_PX_1,img_MJ_PX_10,img_MJ_PX_11,img_MJ_PX_12,img_MJ_PX_13,img_MJ_PX_14,img_MJ_PX_15,img_MJ_PX_16,img_MJ_PX_17,img_MJ_PX_18,img_MJ_PX_19,img_MJ_PX_2,img_MJ_PX_20,img_MJ_PX_21,img_MJ_PX_22,img_MJ_PX_23,img_MJ_PX_24,img_MJ_PX_25,img_MJ_PX_26,img_MJ_PX_27,img_MJ_PX_28,img_MJ_PX_29,img_MJ_PX_3,img_MJ_PX_30,img_MJ_PX_31,img_MJ_PX_32,img_MJ_PX_33,img_MJ_PX_34,img_MJ_PX_4,img_MJ_PX_5,img_MJ_PX_6,img_MJ_PX_7,img_MJ_PX_8,img_MJ_PX_9,img_QDLOGO,s9_MJ_DK43,s9_MJ_DK45"
+		},
+		{
+			"url": "assets/font/mj_daojishi.fnt",
+			"type": "font",
+			"name": "mj_daojishi"
+		},
+		{
+			"url": "assets/font/jushu.fnt",
+			"type": "font",
+			"name": "jushu"
+		},
+		{
+			"url": "assets/eff/eff.json",
+			"type": "sheet",
+			"name": "eff",
+			"subkeys": "img_Dianpao,img_Gang,img_Peng,img_Star,img_Ting,img_ZiMo,img_chi,img_gangkai_01,img_gangkai_02,img_glow,img_glow1,img_haidilao,img_niu"
+		},
+		{
+			"url": "assets/eff/eff_swf.json",
+			"type": "swf",
+			"name": "eff_swf"
+		},
+		{
+			"url": "assets/cgc_majiang_lib.min.js",
+			"type": "js",
+			"name": "cgc_majiang_lib.min_js_qdmj705"
+		},
+		{
+			"url": "assets/mj_main/big_images/img_MJ_DK4.png",
+			"type": "image",
+			"name": "img_MJ_DK4"
+		},
+		{
+			"url": "assets/mj_main/big_images/s9_MJ_DK11.png",
+			"type": "image",
+			"name": "s9_MJ_DK11"
+		},
+		{
+			"url": "assets/mj_main/mj_main_swf.json",
+			"type": "swf",
+			"name": "mj_main_swf"
+		},
+		{
+			"url": "assets/mj_main/mj_main.json",
+			"type": "sheet",
+			"name": "mj_main",
+			"subkeys": "img_MJ_AN17,img_MJ_AN18,img_MJ_AN2,img_MJ_BTD1,img_MJ_BTD2,img_MJ_BTD3,img_MJ_CLOCK,img_MJ_CLOCK1,img_MJ_CLOCK2,img_MJ_DK10,img_MJ_DK14,img_MJ_DK25,img_MJ_DK27,img_MJ_DK28,img_MJ_DK41,img_MJ_DK44,img_MJ_DK48,img_MJ_DK49,img_MJ_DK5,img_MJ_DK51,img_MJ_KS,img_MJ_KS1,img_MJ_KSZB_DI,img_MJ_SZ_WZ,img_MJ_SZ_WZ1,img_MJ_TB1,img_MJ_TB10,img_MJ_TB13,img_MJ_TB14,img_MJ_TB17,img_MJ_TB18,img_MJ_TB2,img_MJ_TB22,img_MJ_TB23,img_MJ_TB27,img_MJ_TB5,img_MJ_TB6,img_MJ_TB7,img_MJ_TP_WZ,img_MJ_TR_AN1,img_MJ_WZ1,img_MJ_WZ10,img_MJ_WZ12,img_MJ_WZ17,img_MJ_WZ18,img_MJ_WZ25,img_MJ_WZ2_T,img_MJ_WZ3,img_MJ_WZ4,img_MJ_WZ5,img_MJ_WZ6,img_MJ_WZ7,img_MJ_WZ8,img_MJ_WZ9,img_MJ_WZ_AN10,img_MJ_WZ_AN11,img_MJ_WZ_AN3,img_MJ_WZ_AN5,img_MJ_WZ_AN6,img_MJ_WZ_AN7,img_MJ_WZ_AN8,img_MJ_WZ_AN9,img_MJ_WZ_BT16,img_MJ_WZ_BT17,img_MJ_WZ_BT19,img_MJ_WZ_DJSS11,img_MJ_WZ_DJSS12,img_MJ_WZ_DJSS13,img_MJ_WZ_DJSS14,img_MJ_YQHY,img_MJ_ZB,img_MJ_ZJM_MJ_PX_5,img_MJ_ZJM_PXD3,img_NJMJ_AN1,img_NJMJ_BTD1,img_NJMJ_BTD2,img_NJMJ_DK1,img_NJMJ_DK10,img_NJMJ_DK2,img_NJMJ_TB4,img_NJMJ_WZ2,img_NJMJ_WZ3,img_NJMJ_WZ4,img_NJMJ_WZ6,img_NJMJ_WZ7,img_NJMJ_WZ9,img_NJMJ_WZ_AN2,img_NJMJ_WZ_AN3,img_NJMJ_WZ_AN4,img_NJMJ_WZ_BT1,img_NJMJ_WZ_BT2,img_NJMJ_WZ_BT3,img_NJMJ_WZ_BT4,img_PT_MJ_TB_AN18,s9_MJ_AN11,s9_MJ_AN12,s9_MJ_AN13,s9_MJ_AN14,s9_MJ_AN15,s9_MJ_AN16,s9_MJ_DK12,s9_MJ_DK21,s9_MJ_DK22,s9_MJ_DK23,s9_MJ_DK24,s9_MJ_DK26,s9_MJ_DK29,s9_MJ_DK33,s9_MJ_DK34,s9_MJ_DK35,s9_MJ_DK52,s9_MJ_DK6,s9_MJ_DK7,s9_MJ_DK8,s9_NJMJ_AN2,s9_NJMJ_AN3,s9_NJMJ_DK3,s9_NJMJ_DK5,s9_NJMJ_DK7,s9_NJMJ_DK9"
+		},
+		{
+			"url": "assets/mj_main/big_images/img_NJMJ_ZM1.png",
+			"type": "image",
+			"name": "img_NJMJ_ZM1"
+		},
+		{
+			"url": "assets/mj_main/big_images/s9_NJMJ_DK4.png",
+			"type": "image",
+			"name": "s9_NJMJ_DK4"
+		},
+		{
+			"url": "assets/mj_main/big_images/img_NJMJ_ZM1.png",
+			"type": "image",
+			"name": "img_NJMJ_ZM12"
+		},
+		{
+			"url": "assets/mj_main/big_images/s9_NJMJ_DK4.png",
+			"type": "image",
+			"name": "s9_NJMJ_DK42"
+		},
+		{
+			"url": "assets/font/endscore.fnt",
+			"type": "font",
+			"name": "endscore"
+		}
+	]
+}
