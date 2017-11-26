@@ -1,0 +1,64 @@
+<TextureAtlas imagePath="pai.png">
+  <SubTexture name="img_pk_3_3" x="92" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_1_7" x="276" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_4_8" x="92" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_3_2" x="460" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_1_6" x="276" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_4_7" x="644" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_3_14" x="460" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_1_5" x="828" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_4_6" x="644" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_3_13" x="828" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_1_4" x="276" y="492" width="90" height="121"/>
+  <SubTexture name="img_pk_4_5" x="184" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_3_12" x="0" y="369" width="90" height="121"/>
+  <SubTexture name="img_pk_1_3" x="368" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_3_11" x="920" y="369" width="90" height="121"/>
+  <SubTexture name="img_pk_4_4" x="552" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_1_2" x="184" y="369" width="90" height="121"/>
+  <SubTexture name="img_pk_3_10" x="736" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_4_3" x="644" y="492" width="90" height="121"/>
+  <SubTexture name="img_pk_1_14" x="920" y="123" width="90" height="121"/>
+  <SubTexture name="img_pk_2_9" x="368" y="369" width="90" height="121"/>
+  <SubTexture name="img_pk_4_2" x="92" y="246" width="90" height="121"/>
+  <SubTexture name="img_pk_1_13" x="92" y="492" width="90" height="121"/>
+  <SubTexture name="img_pk_2_8" x="276" y="246" width="90" height="121"/>
+  <SubTexture name="img_pk_4_14" x="552" y="369" width="90" height="121"/>
+  <SubTexture name="img_pk_1_12" x="460" y="246" width="90" height="121"/>
+  <SubTexture name="img_pk_2_7" x="552" y="492" width="90" height="121"/>
+  <SubTexture name="img_pk_1_11" x="644" y="246" width="90" height="121"/>
+  <SubTexture name="img_pk_4_13" x="736" y="369" width="90" height="121"/>
+  <SubTexture name="img_pk_2_6" x="828" y="246" width="90" height="121"/>
+  <SubTexture name="img_pk_1_10" x="0" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_4_12" x="184" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_2_5" x="368" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_4_11" x="552" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_2_4" x="736" y="0" width="90" height="121"/>
+  <SubTexture name="img_WZ_5_pai" x="820" y="492" width="68" height="35" frameX="0" frameWidth="68" frameY="-1" frameHeight="36"/>
+  <SubTexture name="img_pk_4_10" x="0" y="246" width="90" height="121"/>
+  <SubTexture name="img_pk_2_3" x="184" y="246" width="90" height="121"/>
+  <SubTexture name="img_WZ_4_pai" x="736" y="564" width="67" height="32" frameX="-1" frameWidth="68" frameY="-3" frameHeight="36"/>
+  <SubTexture name="img_pk_2_2" x="552" y="246" width="90" height="121"/>
+  <SubTexture name="img_pk_3_9" x="736" y="246" width="90" height="121"/>
+  <SubTexture name="img_WZ_3_pai" x="890" y="528" width="67" height="33" frameX="-1" frameWidth="68" frameY="-2" frameHeight="36"/>
+  <SubTexture name="img_pk_2_14" x="92" y="369" width="90" height="121"/>
+  <SubTexture name="img_pk_3_8" x="276" y="369" width="90" height="121"/>
+  <SubTexture name="img_WZ_2_pai" x="867" y="563" width="65" height="35" frameX="-2" frameWidth="68" frameY="-1" frameHeight="36"/>
+  <SubTexture name="img_pk_2_13" x="644" y="369" width="90" height="121"/>
+  <SubTexture name="img_pk_3_7" x="828" y="369" width="90" height="121"/>
+  <SubTexture name="img_WZ_1_pai" x="890" y="492" width="68" height="34" frameX="0" frameWidth="68" frameY="-2" frameHeight="36"/>
+  <SubTexture name="img_pk_2_12" x="184" y="492" width="90" height="121"/>
+  <SubTexture name="img_pk_3_6" x="368" y="492" width="90" height="121"/>
+  <SubTexture name="img_WZ_0_pai" x="798" y="529" width="67" height="33" frameX="-1" frameWidth="68" frameY="-2" frameHeight="36"/>
+  <SubTexture name="img_pk_2_11" x="0" y="123" width="90" height="121"/>
+  <SubTexture name="img_TY_DK_9_pai" x="798" y="492" width="20" height="4"/>
+  <SubTexture name="img_pk_3_5" x="920" y="0" width="90" height="121"/>
+  <SubTexture name="img_pk_2_10" x="460" y="492" width="90" height="121"/>
+  <SubTexture name="img_pk_1_9" x="0" y="492" width="90" height="121"/>
+  <SubTexture name="img_pk_3_4" x="460" y="369" width="90" height="121"/>
+  <SubTexture name="img_pk_4_9" x="920" y="246" width="90" height="121"/>
+  <SubTexture name="img_pk_1_8" x="368" y="246" width="90" height="121"/>
+  <SubTexture name="s9_TY_DK_7_pai" x="959" y="534" width="30" height="30"/>
+  <SubTexture name="s9_TY_DK_8_pai" x="736" y="492" width="60" height="60"/>
+  <SubTexture name="s9_ZJH_DK12" x="960" y="492" width="40" height="40"/>
+</TextureAtlas>

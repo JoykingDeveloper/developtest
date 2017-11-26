@@ -1,0 +1,12 @@
+{
+	"name": "egret",
+	"version": "4.0.1",
+	"modules": [
+		{
+			"name": "cgc_platform_lib",
+			"description": "cgc_platform_lib",
+			"files": [],
+			"root": "src"
+		}
+	]
+}

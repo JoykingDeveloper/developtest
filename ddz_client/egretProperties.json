@@ -1,0 +1,36 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "4.0.3",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "starlingSwf",
+			"path": "../StarlingSwf-Egret/libsrc"
+		},
+		{
+			"name": "cgc_platform_lib",
+			"path": "../cgc_platform_lib"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+syntax: glob
+bin-debug\Main.js
+bin-debug\Main.js.map
+egretProperties.json
+favicon.ico
+index.html
+template\runtime\native_loader.js
+template\runtime\native_require.js
+template\runtime\runtime_loader.js
+tsconfig.json
+wingProperties.json
+.gitignore
+.hgignore

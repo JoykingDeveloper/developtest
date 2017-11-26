@@ -1,0 +1,93 @@
+{
+	"groups": [
+		{
+			"keys": "baohuang_client_lib.min_js,baohuang_main_swf,baohuang_main,img_BH_ZM3,img_BH_TB10,img_BH_DK6,pai_swf,pai,img_BH_JSBX9,img_BH_JSBX8,wenzi,eff_swf,eff,img_guangzhu,img_huang,baohuang_1",
+			"name": "game_res_5"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/baohuang_client_lib.min.js",
+			"type": "js",
+			"name": "baohuang_client_lib.min_js"
+		},
+		{
+			"url": "assets/baohuang_main/baohuang_main_swf.json",
+			"type": "swf",
+			"name": "baohuang_main_swf"
+		},
+		{
+			"url": "assets/baohuang_main/baohuang_main.json",
+			"type": "sheet",
+			"name": "baohuang_main",
+			"subkeys": "img_BH_AN10,img_BH_AN11,img_BH_AN7,img_BH_AN8,img_BH_AN9,img_BH_BTD2,img_BH_DK1,img_BH_DK11,img_BH_DK12,img_BH_DK14,img_BH_DK16,img_BH_DK17,img_BH_DK5,img_BH_DK7_1,img_BH_PK_BM,img_BH_PZ5,img_BH_TB1,img_BH_TB11,img_BH_TB12,img_BH_TB13,img_BH_TB14,img_BH_TB17,img_BH_TB18,img_BH_TB19,img_BH_TB2,img_BH_TB3,img_BH_TB4,img_BH_TB5,img_BH_TB6,img_BH_TB7,img_BH_TB8,img_BH_TB9,img_BH_WZ1,img_BH_WZ10,img_BH_WZ2,img_BH_WZ3,img_BH_WZ4,img_BH_WZ5,img_BH_WZ6,img_BH_WZ7,img_BH_WZ8,img_BH_WZ9,img_BH_WZ_AN1,img_BH_WZ_AN10,img_BH_WZ_AN11,img_BH_WZ_AN12,img_BH_WZ_AN13,img_BH_WZ_AN14,img_BH_WZ_AN15,img_BH_WZ_AN2,img_BH_WZ_AN2_1,img_BH_WZ_AN3,img_BH_WZ_AN4,img_BH_WZ_AN5,img_BH_WZ_AN6,img_BH_WZ_AN7,img_BH_WZ_AN8,img_BH_WZ_AN9,img_BH_WZ_BT1,img_BH_WZ_BT2,img_BH_WZ_BT3,img_BH_WZ_BT4,img_BH_WZ_BT5,img_BH_WZ_BT6,img_BH_WZ_BT7,img_BH_WZ_DJS1,img_BH_WZ_DJS10,img_BH_WZ_DJS2,img_BH_WZ_DJS3,img_BH_WZ_DJS4,img_BH_WZ_DJS5,img_BH_WZ_DJS6,img_BH_WZ_DJS7,img_BH_WZ_DJS8,img_BH_WZ_DJS9,img_BH_ZM2,s9_BH_AN1,s9_BH_AN2,s9_BH_AN3,s9_BH_AN4,s9_BH_BTD1,s9_BH_DK10,s9_BH_DK13,s9_BH_DK15,s9_BH_DK18,s9_BH_DK2,s9_BH_DK3,s9_BH_DK4,s9_BH_DK7,s9_BH_DK8,s9_BH_DK9,s9_BH_ZM4"
+		},
+		{
+			"url": "assets/baohuang_main/big_images/img_BH_ZM3.png",
+			"type": "image",
+			"name": "img_BH_ZM3"
+		},
+		{
+			"url": "assets/baohuang_main/big_images/img_BH_TB10.png",
+			"type": "image",
+			"name": "img_BH_TB10"
+		},
+		{
+			"url": "assets/baohuang_main/big_images/img_BH_DK6.png",
+			"type": "image",
+			"name": "img_BH_DK6"
+		},
+		{
+			"url": "assets/pai/pai_swf.json",
+			"type": "swf",
+			"name": "pai_swf"
+		},
+		{
+			"url": "assets/pai/pai.json",
+			"type": "sheet",
+			"name": "pai",
+			"subkeys": "img_BH_PK_0_16,img_BH_PK_0_17,img_BH_PK_1_10,img_BH_PK_1_11,img_BH_PK_1_12,img_BH_PK_1_13,img_BH_PK_1_14,img_BH_PK_1_15,img_BH_PK_1_16,img_BH_PK_1_17,img_BH_PK_1_3,img_BH_PK_1_4,img_BH_PK_1_5,img_BH_PK_1_6,img_BH_PK_1_7,img_BH_PK_1_8,img_BH_PK_1_9,img_BH_PK_2_10,img_BH_PK_2_11,img_BH_PK_2_12,img_BH_PK_2_13,img_BH_PK_2_14,img_BH_PK_2_15,img_BH_PK_2_3,img_BH_PK_2_4,img_BH_PK_2_5,img_BH_PK_2_6,img_BH_PK_2_7,img_BH_PK_2_8,img_BH_PK_2_9,img_BH_PK_3_10,img_BH_PK_3_11,img_BH_PK_3_12,img_BH_PK_3_13,img_BH_PK_3_14,img_BH_PK_3_15,img_BH_PK_3_3,img_BH_PK_3_4,img_BH_PK_3_5,img_BH_PK_3_6,img_BH_PK_3_7,img_BH_PK_3_8,img_BH_PK_3_9,img_BH_PK_4_10,img_BH_PK_4_11,img_BH_PK_4_12,img_BH_PK_4_13,img_BH_PK_4_14,img_BH_PK_4_15,img_BH_PK_4_6,img_BH_PK_4_7,img_BH_PK_4_8,img_BH_PK_4_9,img_BH_PK_CM"
+		},
+		{
+			"url": "assets/baohuang_main/big_images/img_BH_JSBX9.png",
+			"type": "image",
+			"name": "img_BH_JSBX9"
+		},
+		{
+			"url": "assets/baohuang_main/big_images/img_BH_JSBX8.png",
+			"type": "image",
+			"name": "img_BH_JSBX8"
+		},
+		{
+			"url": "assets/font/wenzi.fnt",
+			"type": "font",
+			"name": "wenzi"
+		},
+		{
+			"url": "assets/eff/eff_swf.json",
+			"type": "swf",
+			"name": "eff_swf"
+		},
+		{
+			"url": "assets/eff/eff.json",
+			"type": "sheet",
+			"name": "eff",
+			"subkeys": "img_dengji,img_star"
+		},
+		{
+			"url": "assets/eff/big_images/img_guangzhu.png",
+			"type": "image",
+			"name": "img_guangzhu"
+		},
+		{
+			"url": "assets/eff/big_images/img_huang.png",
+			"type": "image",
+			"name": "img_huang"
+		},
+		{
+			"url": "assets/font/baohuang_1.fnt",
+			"type": "font",
+			"name": "baohuang_1"
+		}
+	]
+}

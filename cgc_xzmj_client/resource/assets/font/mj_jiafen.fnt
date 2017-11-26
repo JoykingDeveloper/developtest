@@ -1,0 +1,12 @@
+{"file":"mj_jiafen.png","frames":{
+"1":{"x":49,"y":115,"w":21,"h":58,"offX":13,"offY":1,"sourceW":46,"sourceH":60},
+"2":{"x":0,"y":0,"w":46,"h":59,"offX":0,"offY":1,"sourceW":46,"sourceH":60},
+"3":{"x":50,"y":0,"w":46,"h":59,"offX":0,"offY":1,"sourceW":46,"sourceH":60},
+"4":{"x":0,"y":63,"w":45,"h":57,"offX":1,"offY":2,"sourceW":46,"sourceH":60},
+"5":{"x":150,"y":0,"w":46,"h":57,"offX":0,"offY":2,"sourceW":46,"sourceH":60},
+"6":{"x":198,"y":61,"w":45,"h":58,"offX":1,"offY":1,"sourceW":46,"sourceH":60},
+"7":{"x":100,"y":0,"w":46,"h":57,"offX":0,"offY":2,"sourceW":46,"sourceH":60},
+"8":{"x":100,"y":61,"w":45,"h":58,"offX":1,"offY":1,"sourceW":46,"sourceH":60},
+"9":{"x":200,"y":0,"w":46,"h":57,"offX":0,"offY":2,"sourceW":46,"sourceH":60},
+"0":{"x":149,"y":61,"w":45,"h":58,"offX":1,"offY":1,"sourceW":46,"sourceH":60},
+"+":{"x":49,"y":63,"w":46,"h":48,"offX":0,"offY":6,"sourceW":46,"sourceH":60}}}
